@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nombre del Artista - Pinturas e Ilustraciones</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script> <!-- Enlaza el archivo JavaScript -->
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#portfolio">Portafolio</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h1>¡Bienvenido al mundo de las pinturas e ilustraciones!</h1>
+            <p>Explora el arte único y creativo de [Nombre del Artista].</p>
+            <a href="#portfolio" class="cta-button">Ver mi trabajo</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-content">
+            <h2>Sobre mí</h2>
+            <p>Soy un artista gráfico especializado en pinturas e ilustraciones. Mi pasión por el arte comenzó desde una edad temprana y he estado creando obras de arte únicas y expresivas desde entonces.</p>
+            <p>Me encanta experimentar con diferentes técnicas y estilos, y mi trabajo abarca una amplia gama de temas, desde paisajes y retratos hasta arte abstracto.</p>
+            <p>Explora mi portafolio para descubrir el mundo visual que he creado y contáctame si estás interesado en adquirir alguna de mis obras o colaborar en un proyecto artístico.</p>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="portfolio-content">
+            <h2>Portafolio</h2>
+            <div class="portfolio-gallery">
+                <div class="artwork">
+                    <img src="artwork1.jpg" alt="Obra de arte 1">
+                    <h3>Título de la Obra de Arte 1</h3>
+                </div>
+                <div class="artwork">
+                    <img src="artwork2.jpg" alt="Obra de arte 2">
+                    <h3>Título de la Obra de Arte 2</h3>
+                </div>
+                <!-- Agrega más obras de arte -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-content">
+            <h2>Contacto</h2>
+            <p>Si estás interesado en alguna de mis obras, deseas hacer una consulta o colaborar en un proyecto artístico, no dudes en ponerte en contacto conmigo. Estaré encantado de escucharte.</p>
+            <form action="enviar.php" method="POST">
+                <input type="text" name="nombre" placeholder="Nombre" required>
+                <input type="email" name="email" placeholder="Correo electrónico" required>
+                <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer></footer>
+        
+</body>
+</html>
+
