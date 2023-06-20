@@ -7,6 +7,7 @@ body {
 
 h1, h2, h3 {
     font-weight: bold;
+    text-align: center;
 }
 
 a {
@@ -37,7 +38,7 @@ nav ul li {
     background-image: url("hero-background.jpg");
     background-size: cover;
     background-position: center;
-    height: 500px;
+    height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -79,7 +80,8 @@ nav ul li {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
+    
 }
 
 .artwork {
@@ -131,9 +133,7 @@ footer {
     font-size: 14px;
     color: #555;
 }
-img {
-    src: 200px;
-    width: 200px;
-    height: 300px;
-    
-}
+ 
+
+
+
