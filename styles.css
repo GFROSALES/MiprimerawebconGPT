@@ -3,6 +3,7 @@ body {
     font-family: "Arial", sans-serif;
     margin: 0;
     padding: 0;
+    background-color: rgb(10, 10, 10);
 }
 
 h1, h2, h3 {
@@ -38,7 +39,8 @@ nav ul li {
     background-image: url("hero-background.jpg");
     background-size: cover;
     background-position: center;
-    height: 300px;
+    background-color: rgb(189, 250, 230);
+    height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -47,6 +49,17 @@ nav ul li {
 
 .hero-content {
     color: rgb(45, 6, 6);
+}
+.about-content {
+    background-color: rgb(148, 198, 248);
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .cta-button {
