@@ -83,7 +83,8 @@ nav ul li {
 }
 
 .artwork {
-    width: 300px;
+    width: 200px;
+    
 }
 
 /* Estilos del contacto section */
@@ -129,4 +130,10 @@ footer {
     text-align: center;
     font-size: 14px;
     color: #555;
+}
+img {
+    src: 200px;
+    width: 200px;
+    height: 300px;
+    
 }
